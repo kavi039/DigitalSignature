@@ -1,7 +1,7 @@
 keystore:
-  path: ${JVMFY_KEYSTORE}
-  password: ${JVMFY_KEYSTORE_PASSWORD}
-  certificate-alias: jvmfy
+  path: ${DOC_SIGNER_CERTIFICATE_PATH}
+  password: ${DOC_SIGNER_CERTIFICATE_PASSWORD}
+  certificate-alias: te-f5b07e7f-d773-4173-aabb-cfb4b0435c89
 
 timestamp-authority:
   url: http://sha256timestamp.ws.symantec.com/sha256/timestamp
